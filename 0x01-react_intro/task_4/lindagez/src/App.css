@@ -1,3 +1,6 @@
+:root {
+  --color-holberton: #e01d3f;
+}
 .App-header {
   display: flex;
   align-items: center;

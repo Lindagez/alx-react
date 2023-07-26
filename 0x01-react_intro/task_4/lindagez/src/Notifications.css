@@ -1,3 +1,7 @@
+:root {
+    --color-holberton: #e01d3f;
+}
+
 .Notifications {
 	width: 95%;
     border: 2px dotted #FF0000;
