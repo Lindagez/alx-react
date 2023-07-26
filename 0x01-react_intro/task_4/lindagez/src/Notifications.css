@@ -1,25 +1,20 @@
-:root {
-    --color-holberton: #e01d3f;
-}
-
-.Notifications{
-    border: 2px dashed var(--color-holberton);
-    padding-top: 5px; 
-    padding-left: 5px;
-    padding-bottom: 5px;
-}
-
-.Notifications button img {
-    width: 20px;
+.Notifications {
+	width: 95%;
+    border: 2px dotted #FF0000 dashed var(--color-holberton);
+    padding: 0 20px;
+    top: 0;
     position: absolute;
-    right: 20px;
-    top: 20px;
-}
 
-[data-priority="default"] {
-    color: #0a0a54;
 }
-
-[data-priority="urgent"] {
-    color: var(--color-holberton);
+li[data="default"] {
+	color: #89CFF0;
+}
+li[data="urgent"] {
+	color: #FF0000;
+}
+.Notifications img{
+	top: 0px;
+	width: 15px;
+	height: 15px;
+	position: absolute;
 }
