@@ -7,7 +7,7 @@ import { getLatestNotification } from './utils';
 function Notifications() {
   return (
     <div className="Notifications">
-      <p>Here is the list of notifications</p>
+      <p></p>
       <button style={{float:'right', background: 'none', border: 'none'}}
       arial-label="Close"
       onClick={()=>console.log("Close button has been clicked")}>
